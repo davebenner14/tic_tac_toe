@@ -1,0 +1,54 @@
+State = {
+    player - turn
+    board: []
+    winMessage
+}
+let currentTurn;
+let board
+const player1 = 'X';
+const player2 = 'O'
+
+//cached elements
+boardElement
+messageElement
+player1Element
+player2Element
+
+//function
+init(){
+    state.winner=nukk
+    state.player-turn = x
+    state.board = [null, null, null, null, null, null, null, null, null,]
+    state.winMessage = ""
+    render();
+}
+function startGame(){
+  currentTurn = player1
+}
+
+render(){
+    boardElement = state.board
+    messageElement = state.winMessage
+    if(state.player-turn =x){
+        player1Element.backgroundcolor = yellow
+    } else {
+                playerElement.backgroundcolor = yellow
+    }
+}
+// console.log("hello fromm app js");
+
+//cached elements
+const boardEl = document.querySelector(".board");
+
+const state = {
+  winner
+  player-turn
+  turn
+  board: [null, null, null, null, null, null, null, null, null]
+  winMessage
+  drawMessage
+}
+
+function render() {
+  player1Element.style.backgroundColor = black;
+}
